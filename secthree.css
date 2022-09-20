@@ -1,0 +1,138 @@
+#secthree{
+
+margin: auto;
+width:70%;
+/* border: 1px solid red; */
+margin-top: 90px;
+/* border: 1px solid red; */
+}
+
+
+#secthree p{
+text-align: center;
+   font-size: 13px;
+color: rgb(255, 255, 255);
+/* font-weight: 600; */
+margin-top: 12px;
+font-family: 'Poppins', sans-serif;
+    }
+
+
+
+.tagline{
+    font-size: 65px;
+    text-align: center;
+    color:  #ff5400;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+    .taglines{
+        margin-top: 40px;
+        display: grid;
+        flex-wrap: wrap;
+        grid-template-columns:1fr 1fr  1fr 1fr  ;
+        grid-row-gap: 10px;
+        
+
+
+    }
+
+
+
+    .taglines div{
+        /* border: 1px solid red; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .taglines div i{
+      font-size: 33px;
+     color: rgb(255, 255, 255);
+    }
+
+    
+    @media screen and (max-width:990px) {
+
+
+
+        .taglines{
+          
+          
+            grid-template-columns:1fr 1fr 1fr ;
+          
+            
+            grid-row-gap: 30px;
+    
+        }
+
+
+    }
+
+
+    @media screen and (max-width:800px) {
+
+
+
+        .taglines{
+          
+          
+            grid-template-columns:1fr 1fr  ;
+          
+            grid-row-gap: 30px;
+    
+    
+        }
+
+
+    }
+
+
+    @media screen and (max-width:480px) {
+
+
+
+        .taglines{
+          
+          
+            grid-template-columns:1fr 1fr;
+          
+            
+            grid-row-gap: 30px;
+    
+        }
+        
+
+        #secthree{
+
+            margin: auto;
+            width: 80%;
+            /* border: 1px solid red; */
+            margin-top: 90px;
+            /* border: 1px solid red; */
+            }
+
+        .taglines div i{
+            font-size: 35px;
+           color: rgb(107, 107, 107);
+          }
+    
+          
+
+          #secthree p{
+          
+               font-size: 11px;
+            
+                }
+            
+
+                .tagline{
+                    font-size: 37px;
+                  
+                }
+
+    }

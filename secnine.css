@@ -1,0 +1,168 @@
+#secnine{
+margin-top: 100px;
+background-color: black;
+
+
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+
+
+.footerinfo {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+
+    }
+
+
+
+.footerinfo img{
+width: 200px;
+
+}
+
+
+.row{
+justify-content: space-between;
+display: flex;
+margin: auto;
+height: 100%;
+width: 80%;
+margin-top: 40px;
+flex-wrap: wrap;
+
+}
+
+
+h4{
+color: white;
+position: relative;
+font-size: 25px;
+}
+
+
+.col ul{
+margin-top: 30px;
+
+}
+
+.col{
+  margin-top:20px ;
+    width: 230px;
+}
+
+
+.col ul li{
+    transition: 0.4s all ease;
+    margin-top: 5px;
+    font-size: 16px;
+  
+    }
+
+   h4::after{
+   content: '';
+        position: absolute;
+        width: 40px;
+        background-color: #ff5400;
+        height: 2px;
+   bottom: -10%;
+   left: 0%;
+
+        }
+
+
+    .col ul li a{
+        transition: 0.4s all ease;
+          color: rgb(146, 146, 146);
+            
+            }
+
+            .col ul li a:hover{
+     
+            margin-left: 10px;
+                  
+                  }
+      
+      
+
+
+            .slinks a i{
+
+font-size: 20px;
+margin: 10px;
+margin-top: 20px;
+color: #ff5400;
+
+            }
+
+            .coltwo {
+
+                margin-top: 40px;
+            }
+
+
+.rights{
+
+
+    color: #ff5400;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    font-size: 15px;
+}
+
+
+.rights::before{
+
+    content: '';
+    position: absolute;
+    width: 90%;
+    background-color: #353535;
+    height: 1px;
+    top: -100%;
+left: 5%;
+
+}
+
+            @media screen and (max-width:600px) {
+              
+             
+                    .col{
+                        align-items: center;
+                        display: flex;
+                        width:100%;
+                       flex-direction: column;
+                       justify-content: center;
+                        margin-top: 40px;
+                     
+                    }
+
+                    .row{
+                        margin-top: 20px;
+                        }
+
+                        
+                        .rights{
+
+
+                            font-size: 12px;
+                        }
+
+                        #secnine{
+                            margin-top: 50px;
+                       
+                            }
+
+                            .col ul li{
+                                transition: 0.4s all ease;
+                                margin-top: 5px;
+                                font-size: 14px;
+                                text-align: center;
+                              
+                                }
+
+
+                            
+            }

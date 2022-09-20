@@ -1,0 +1,479 @@
+#secsix {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+
+
+.secsixhead{
+  color: #ff5400;
+    text-align: center;
+    font-size: 65px;
+ font-weight: 600;
+ font-family: 'Poppins', sans-serif;
+ 
+}
+
+
+.light img {
+
+    width: 270px;
+
+    transform: rotate(-10deg);
+
+}
+
+.light {
+   
+
+    margin-top: 100px;
+
+
+}
+
+
+
+.light-wrapper {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.lighthead {
+
+    opacity: 2%;
+    color: white;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 280px;
+    left: 0px;
+    top: 130px;
+}
+
+.lpwrapper {
+   
+    flex-direction: column;
+    display: flex;
+    height: 300px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 60%;
+
+}
+
+
+.lpone {
+    margin-bottom: 10px;
+    font-size: 60px;
+    color: #ff5400;
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+}
+
+
+.lptwo {
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* {{{{{{{{{{{{{{{{{Word press}}}}}}}}}}}}}}}}} */
+
+
+
+
+
+.ex img {
+    width: 320px;
+    /* background-color: aliceblue; */
+}
+
+.ex-wrapper {
+   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: space-between;
+    position: relative;
+    /* border: 1px solid red; */
+  
+}
+
+
+.exhead {
+
+    opacity: 2%;
+    color: white;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 250px;
+    left: 0px;
+    top: 590px;
+
+}
+
+
+
+.expwrapper {
+    flex-direction: column;
+    display: flex;
+    height: 280px;
+    justify-content: flex-end;
+    width: 60%;
+
+}
+
+.expone {
+    margin-bottom: 10px;
+    font-size: 60px;
+    color: #ff5400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+
+.extwo {
+    color: white;
+    font-size: 20px;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* {{{{{{{{{{{{Support}}}}}}}}}}}} */
+
+.support img {
+
+    width: 310px;
+
+}
+
+.twofourhead {
+    opacity: 2%;
+    color: white;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 240px;
+    left: 10px;
+    top: 1000px;
+}
+
+
+
+.support-wrapper {
+    margin-top: 90px;
+    width:100%;
+    display: flex;
+    /* border: 1px solid red; */
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.suwrapper {
+    flex-direction: column;
+    /* border: 1px solid red; */
+    display: flex;
+    height: 220px;
+    justify-content: flex-end;
+    text-align: right;
+    width:66%;
+
+}
+
+
+@media screen and (max-width:990px) {
+
+
+    .lighthead {
+
+        display: none;
+    }
+
+
+    .lpone {
+
+        font-size: 40px;
+
+    }
+
+    .light img {
+        /* filter: drop-shadow(10px 10px 2px); */
+        width: 180px;
+
+
+    }
+
+    .lptwo {
+
+        font-size: 15px;
+
+
+    }
+
+    .lpwrapper {
+
+        height: 280px;
+
+    }
+
+
+
+
+
+
+
+    /* {{{{{{{{{{{{{{}}}}}}}}}}}}}} */
+
+    .expone {
+
+        font-size: 40px;
+
+    }
+
+
+    .extwo {
+
+        font-size: 15px;
+
+
+    }
+
+    .expwrapper {
+
+        height: 200px;
+
+    }
+
+
+    .exhead {
+        font-size: 150px;
+        top: 440px;
+        display: none;
+
+    }
+
+
+
+    .ex img {
+        width: 200px;
+        /* background-color: aliceblue; */
+    }
+
+
+    /* {{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}} */
+    .support img {
+
+        width: 190px;
+
+    }
+
+
+    .suwrapper {
+
+        height: 160px;
+
+
+    }
+
+
+    .twofourhead {
+        display: none;
+    }
+
+
+
+
+}
+
+
+
+/* {{{{{{{{{{{}}}}}}}}}}} */
+
+@media screen and (max-width:700px) {
+
+    .secsixhead{
+        color: #ff5400;
+            text-align: center;
+            font-size: 35px;
+        font-weight: 600;
+            font-family: 'Montserrat', sans-serif;
+         
+        }
+        
+    .lighthead {
+
+        display: none;
+    }
+
+    .light {
+        /* filter: drop-shadow(10px 10px 2px); */
+
+        margin-top: 0px;
+
+    }
+
+    .lpone {
+        /* border: 1px solid red; */
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .light img {
+        /* filter: drop-shadow(10px 10px 2px); */
+        width: 210px;
+
+
+    }
+
+    .light {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .lptwo {
+
+        font-size: 14px;
+
+        text-align: center;
+    }
+
+    .lpwrapper {
+        margin-top: 40px;
+        height: auto;
+        width: 100%;
+        /* border: 1px solid red; */
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .light-wrapper {
+        margin-top: 100px;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    /* {{{{{{{{{{{{{{}}}}}}}}}}}}}{{{{{{{{}}}}}}}}}}}}}} */
+
+    .expone {
+        text-align: center;
+        font-size: 30px;
+
+    }
+
+
+    .extwo {
+        text-align: center;
+        font-size: 14px;
+
+
+    }
+
+    .ex-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin-top: 80px;
+        width: 100%;
+
+    }
+
+
+
+    .expwrapper {
+        margin-top: 40px;
+
+        height: auto;
+        width: 100%;
+        /* border: 1px solid red; */
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+
+    }
+
+
+    .exhead {
+        font-size: 90px;
+        top: 440px;
+        right: -40px;
+        display: none;
+    }
+
+
+
+    .ex img {
+        width: 190px;
+        /* background-color: aliceblue; */
+    }
+
+
+    /* {{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}} */
+    .support img {
+
+        width: 180px;
+
+    }
+
+
+    .support {
+
+        height: 40px;
+        margin-top: 0px;
+        display: flex;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+
+    .twofourhead {
+        display: none;
+    }
+
+
+    .support-wrapper {
+        margin-top: 60px;
+   
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+    }
+
+
+    .suwrapper {
+        flex-direction: column;
+        /* border: 1px solid red; */
+        display: flex;
+        height: 120px;
+        width: 100%;
+        justify-content: flex-end;
+        text-align: right;
+
+    }
+
+}

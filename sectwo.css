@@ -1,0 +1,473 @@
+#sectwo img {
+
+    width: 440px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#sectwo {
+    width: 80%;
+    margin: auto;
+    position: relative;
+
+
+}
+
+
+.boxtwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+
+
+
+
+}
+
+
+.boxtwolines {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 90px;
+    color: white;
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 440px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.boxtwolines .pone {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.price {
+    color: #ff5400;
+    font-size: 90px;
+    font-family: 'Roboto', sans-serif;
+font-weight: 800;
+
+}
+
+.boxtwolines .pthree {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+
+/* {{{{{{{{{{{{{{{{TIMER CSS}}}}}}}}}}}}}}}} */
+
+.timerwrapper {
+    margin-top: 90px;
+    width: 50%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.timerbox {
+
+    width: 450px;
+    height: 90%;
+    border-radius: 40px;
+    border: 2px solid #ff5400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.timerbox div {
+    margin: 12px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 28px;
+    color: rgb(204, 197, 197);
+}
+
+
+
+
+.timedailog {
+
+
+    top: 26%;
+    left: 68%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 33px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+
+}
+
+
+.timedailog span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+    color: #ff5400;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.timerbtn {
+
+    background: none;
+    color: #ff5400;
+    margin-top: 25px;
+    border: 1px solid #ff5400;
+    padding: 15px;
+    border-radius: 90px;
+    height: 60px;
+    width: 160px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    box-shadow: inset 0 0 0 0 #ff5400;
+    transition: 0.4s;
+
+
+
+}
+
+.timerbtn:hover {
+
+    box-shadow: inset 300px 0 0 0 #ff5400;
+    color: white;
+
+}
+
+.timebtnwrapper {
+
+
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* {{{{{{{{{{{{{{{{responsive }}}}}}}}}}}}}}}} */
+
+
+
+@media screen and (max-width:1115px) {
+
+
+
+    .boxtwolines {
+        height: 350px;
+    }
+
+    .boxtwolines .pone {
+
+        font-size: 30px;
+
+    }
+
+    .price {
+
+        padding-top: 10px;
+        /* border: 1px solid red; */
+    }
+
+    .boxtwolines .pthree {
+
+        font-size: 30px;
+
+        /* border: 1px solid red; */
+    }
+
+
+    .boxtwo {
+
+        margin-top: 60px;
+
+        /* border: 1px solid red; */
+
+    }
+
+
+
+    .timerbox {
+
+        width: 350px;
+
+    }
+
+
+
+    .timerbox div {
+
+        font-size: 20px;
+
+    }
+
+
+    .timebtnwrapper {
+
+
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+
+
+    .timedailog {
+
+        font-size: 23px;
+        width: 350px;
+
+    }
+
+
+    .timedailog span {
+
+        font-size: 45px;
+
+    }
+
+
+
+}
+
+
+
+
+
+/* {{{{{{{{{{{{{{{{{responsive 930px}}}}}}}}}}}}}}}}} */
+
+
+
+
+@media screen and (max-width:930px) {
+
+    #sectwo img {
+
+        width: 400px;
+
+    }
+
+
+    .boxtwolines {
+        height: 300px;
+    }
+
+    .boxtwolines .pone {
+
+        font-size: 25px;
+
+    }
+
+    .price {
+
+        padding-top: 10px;
+        font-size: 70px;
+        /* border: 1px solid red; */
+    }
+
+    .boxtwolines .pthree {
+
+        font-size: 25px;
+
+        /* border: 1px solid red; */
+    }
+
+
+    .boxtwo {
+
+        margin-top: 20px;
+
+        /* border: 1px solid red; */
+
+    }
+
+
+
+    .timerbox {
+
+        width: 260px;
+        height: 40%;
+    }
+
+
+
+    .timerbox div {
+
+        font-size: 15px;
+
+    }
+
+
+    .timebtnwrapper {
+
+
+        width: 230px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+
+
+    .timedailog {
+
+        font-size: 16px;
+        width: 230px;
+
+    }
+
+
+    .timedailog span {
+
+        font-size: 35px;
+
+    }
+
+
+
+}
+
+
+
+
+/* {{{{{{{{{{{{{{750px responsive}}}}}}}}}}}}}} */
+
+
+@media screen and (max-width:750px) {
+
+
+
+    .boxtwo {
+
+        flex-direction: column;
+
+        padding-left: 0px;
+        padding-right: 0px;
+        /* border: 1px solid red; */
+
+    }
+
+    .boxtwolines {
+
+        width: 90%;
+
+
+    }
+
+
+
+
+
+    /* {{{{{{{{{{{{{}}}}}}}}}}}}} */
+
+
+
+    .timerwrapper {
+
+        margin-top: 60px;
+        align-items: center;
+        justify-content: start;
+        height: 100%;
+
+    }
+
+
+
+    .timerbox {
+
+        width: 300px;
+        height: 20%;
+    }
+
+    #sectwo img {
+
+        width: 270px;
+
+    }
+
+    .price {
+
+
+        font-size:56px;
+        /* border: 1px solid red; */
+    }
+
+    .boxtwolines {
+        height: 270px;
+        margin-top: 40px;
+    }
+
+
+    /* .timerbox div {
+    margin: 12px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 28px;
+    color: #ff5400;
+} */
+
+    .timedailog {
+
+        font-size: 22px;
+        width: 350px;
+
+    }
+
+
+    .timedailog span {
+
+        font-size: 40px;
+
+    }
+
+    #sectwo img {
+
+
+
+        top: -7%;
+
+    }
+
+}

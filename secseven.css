@@ -1,0 +1,182 @@
+#secseven {
+       background-color: rgb(26, 26, 26);
+       height: auto;
+       height: 300px;
+       margin: auto;
+       width: 100%;
+       margin-top: 150px;
+       display: flex;
+       justify-content: space-around;
+
+}
+
+.testi {
+       /* border: 1px solid red; */
+       width: 300px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+}
+
+
+
+.testi div {
+       font-size: 30px;
+       color: white;
+       font-family: 'Roboto', sans-serif;
+       margin-top: 30px;
+}
+
+
+
+.sixtag {
+
+       color: white;
+
+}
+
+
+.f {
+
+       margin-top: 70px;
+       font-size: 36px;
+       color: white;
+
+}
+
+
+
+.ftwo i {
+
+       color: #ff5400;
+}
+
+
+.ftwo {
+
+       color: #ff5400;
+}
+
+
+
+
+
+@media screen and (max-width:600px) {
+
+       #secseven {
+
+              height: auto;
+              height: 250px;
+
+
+       }
+
+       .testi div {
+              font-size: 20px;
+              color: white;
+              font-family: 'Roboto', sans-serif;
+              margin-top: 50px;
+       }
+
+
+
+       .f {
+
+              margin-top: 50px;
+              font-size: 20px;
+              color: white;
+
+       }
+
+       .sixtag {
+
+              color: white;
+              font-size: 15px;
+       }
+
+
+
+}
+
+/* {{{{{{{{{{{{{{{}}}}}}}}}}}}}}} */
+
+
+@media screen and (max-width:920px) {
+
+       #secseven {
+              margin-top: 50px;
+              height: auto;
+              height: 220px;
+
+
+       }
+
+       .testi div {
+              font-size: 16px;
+              color: white;
+              font-family: 'Roboto', sans-serif;
+              margin-top: 30px;
+       }
+
+
+
+       .f {
+
+              margin-top: 30px;
+              font-size: 15px;
+              color: white;
+
+       }
+
+       .sixtag {
+
+              color: white;
+              font-size: 8px;
+       }
+
+
+
+}
+
+/* {{{{{{{{{{{{{}}}}}}}}}}}}} */
+
+
+@media screen and (max-width:450px) {
+
+       #secseven {
+              margin-top: 60px;
+              height: auto;
+              height: 200px;
+
+
+       }
+
+       .testi div {
+              font-size: 23px;
+              color: white;
+              font-family: 'Roboto', sans-serif;
+              margin-top: 0px;
+       }
+
+
+
+       .f {
+
+              margin-top: 30px;
+              font-size: 15px;
+              color: white;
+
+       }
+
+       .sixtag {
+
+              color: white;
+              font-size: 8px;
+       }
+
+.testinone{
+       display: none;
+}
+
+}
